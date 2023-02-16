@@ -12,6 +12,7 @@
   border-radius: 5px;
   background-color: #ff900e;
 }
+/* Header Section */
 .header-section {
   background-color: #fff4e7;
 }
@@ -23,7 +24,7 @@ nav {
 }
 nav a {
   text-decoration: none;
-  color: black;
+  color: #424242;
   margin-right: 20px;
 }
 nav h3 {
@@ -39,9 +40,106 @@ nav h3 {
   font-weight: 700;
   font-size: 50px;
 }
+.header-body p {
+  color: #727272;
+}
 .header-image {
   padding: 20px 100px;
 }
 .header-image img {
   width: 100%;
+}
+
+/* Team Section */
+.team-features {
+  display: flex;
+}
+.team-features-half-width {
+  width: 50%;
+}
+.team-features-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 50px;
+}
+.team-features-images img {
+  width: 100%;
+}
+.team-features-text {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.team-features-text h3 {
+  font-weight: 700;
+  font-size: 30px;
+}
+.team-features-text {
+  color: #727272;
+}
+.team-features-grey-heading {
+  color: #727272;
+  font-weight: 600;
+}
+.team-features-orange-heading {
+  color: orange;
+}
+/* Architecture and Features Section */
+.architecture-section {
+  display: flex;
+  margin: 0px 50px;
+}
+.architecture-section-half {
+  width: 50%;
+}
+.architecture-section-list {
+  padding: 20px;
+}
+.architecture-section-heading {
+  border-left: 5px solid #ff900e;
+  font-weight: 700px;
+  font-size: 35px;
+  padding: 10px;
+}
+.architecture-section-list p {
+  color: #727272;
+}
+.features-list {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid white;
+  box-shadow: 0 0 20px #bebcbc;
+}
+.architecture-section-image img {
+  width: 80%;
+  margin-left: 100px;
+}
+.experience-part {
+  color: white;
+  background-color: #ff900e;
+  border: 0px;
+  height: 90px;
+  width: 150px;
+  padding: 20px 40px;
+  position: relative;
+  margin-top: -60px;
+  margin-left: 40px;
+  text-align: center;
+  border-radius: 5px;
+}
+.experience-part h3 {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+/* Footer Section */
+footer {
+  text-align: center;
+  background-color: #fff4e7;
+  margin: 50px;
+}
+footer p {
+  color: #727272;
+  padding: 20px 300px;
 }
