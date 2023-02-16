@@ -133,6 +133,43 @@ nav h3 {
   font-size: 35px;
 }
 
+/* Facts Section  */
+.facts-section {
+  margin: 50px;
+}
+.fact-heading {
+  width: 50%;
+  margin-bottom: 100px;
+}
+.fact-heading h3 {
+  font-weight: 700;
+  font-size: 50px;
+}
+.fact-heading p {
+  color: #424242;
+}
+
+.fact-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  text-align: center;
+}
+.facts {
+  padding: 50px 50px;
+  border: 1px solid orange;
+  border-radius: 10px;
+}
+.facts h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+.facts p {
+  color: #727272;
+  font-weight: 700;
+  font-size: 22px;
+}
+
 /* Footer Section */
 footer {
   text-align: center;
