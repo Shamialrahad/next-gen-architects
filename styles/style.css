@@ -170,6 +170,29 @@ nav h3 {
   font-size: 22px;
 }
 
+/* Sponsors section  */
+.sponspors-section {
+  margin: 100px 50px;
+}
+.sponspors-heading {
+  text-align: center;
+  margin: 50px 300px;
+}
+.sponspors-heading h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+.sponspors-heading p {
+  color: #727272;
+}
+.sponspors-list {
+  display: flex;
+  justify-content: space-between;
+}
+.sponspors-list img {
+  filter: grayscale(100%);
+}
+
 /* Footer Section */
 footer {
   text-align: center;
