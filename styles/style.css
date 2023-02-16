@@ -159,6 +159,11 @@ nav h3 {
   padding: 50px 50px;
   border: 1px solid orange;
   border-radius: 10px;
+  transition: width 1s, height 1s, transform 1s;
+}
+.facts:hover {
+  box-shadow: 0 0 30px #bebcbc;
+  transform: scale(1.1);
 }
 .facts h2 {
   font-weight: 700;
